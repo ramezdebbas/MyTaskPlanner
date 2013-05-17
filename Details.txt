@@ -1,0 +1,14 @@
+My Task Planner:
+Description:
+My Task Planner is an app where you can find the best ways, it’s a totally productive app, the way you can adopt & plan your goals, tasks as well.
+
+Features:
+•	Add Tasks into the App.
+•	User Interaction & Support.
+•	Delete the task.
+•	Add the data and Check or Uncheck.
+•	Task to do. 
+•	Fully Different User Interface Designed keeping in focus point of view of Niche (Target) Market.
+•	 Live Tiles(Locally & Remotely)
+•	Searching feature.
+•	Fully Unique Branding (Unique Logo Designing & Graphics Designing).

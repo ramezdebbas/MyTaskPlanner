@@ -1,0 +1,83 @@
+﻿.homepage .itemList {
+	height: 100%;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+	.homepage .itemList .win-surface {
+		margin-left: 120px;
+		margin-right: 120px;
+	}
+
+	.homepage .itemList .item {
+		display: -ms-grid;
+		-ms-grid-columns: 1fr;
+		-ms-grid-rows: 1fr;
+		height: 550px;
+		width: 400px;
+	}
+
+		.homepage .itemList .item .categoryName {
+			height: 100px;
+			background-color: rgba(0,0,0,0.6);
+			color: white;
+			font-style: oblique;
+			margin-top: 450px;
+		}
+
+
+@media screen and (-ms-view-state: snapped) {
+	.homepage section[role=main] {
+		-ms-grid-row: 2;
+		-ms-grid-row-span: 1;
+	}
+
+	.homepage .itemList .win-surface {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.homepage .itemList .item {
+		display: -ms-grid;
+		-ms-grid-columns: 1fr;
+		-ms-grid-rows: 1fr;
+		height: 100px;
+		width: 250px;
+	}
+
+		.homepage .itemList .item .item-image {
+			-ms-grid-column: 1;
+			-ms-grid-row-span: 1;
+			height: 60px;
+			width: 60px;
+		}
+
+		.homepage .itemList .item .categoryName {
+			height: 100px;
+			background-color: rgba(0,0,0,0.6);
+			color: white;
+			font-style: oblique;
+			margin-top: 80px;
+		}
+
+			.homepage .itemList .item .item-overlay .item-title {
+				margin-top: 4px;
+				max-height: 40px;
+				width: 202px;
+			}
+
+			.homepage .itemList .item .item-overlay .item-subtitle {
+				opacity: 0.6;
+				width: 202px;
+			}
+
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+	.homepage .itemList .win-surface {
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-bottom: 80px;
+	}
+
+}

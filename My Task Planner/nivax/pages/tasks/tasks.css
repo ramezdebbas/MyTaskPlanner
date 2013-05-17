@@ -1,0 +1,63 @@
+﻿.tasks section[role=main] {
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.win-item
+{
+	
+}	
+
+.taskItem
+{
+	display: -ms-grid;
+	background-image: url('/image/background.jpg') !important;
+	min-width: 500px;
+	font-family: 'segoe print'
+}
+
+	.taskItem input
+	{
+		-ms-grid-column:1;
+		zoom: 1.5;
+	}
+
+	.taskItem h2
+	{
+		-ms-grid-column: 2;
+		padding: 5px;
+		margin-left: 5px;
+	}
+
+@media screen and (-ms-view-state: snapped) {
+	.tasks section[role=main] {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.taskItem
+	{
+		display: -ms-grid;
+		background-image: url('/image/background.jpg') !important;
+		min-width: 250px;
+		font-family: 'segoe print'
+	}
+
+	.taskItem input
+	{
+		-ms-grid-column:1;
+		zoom: 1.1;
+	}
+
+	.taskItem h2
+	{
+		-ms-grid-column: 2;
+		padding: 5px;
+	}
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+	.tasks section[role=main] {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}
